@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://nhantle.com/sitemap.xml
+Host: https://nhantle.com
