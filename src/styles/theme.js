@@ -4,17 +4,17 @@ import ColorScheme from 'color-scheme';
 
 const scheme = new ColorScheme();
 scheme
-  .from_hue(parseInt(100 * Math.random())) // Start the scheme
-  .scheme('contrast') // Use the 'triade' scheme, that is, colors
+  .from_hue(parseInt(255 * Math.random())) // Start the scheme
+  .scheme('triade') // Use the 'triade' scheme, that is, colors
   // selected from 3 points equidistant around
   // the color wheel.
-  .variation('hard'); // Use the 'soft' color variation
+  .variation('soft'); // Use the 'soft' color variation
 
 let colors = scheme.colors();
-colors = colors.map(color => `#${  color}`);
+colors = colors.map(color => `#${color}`);
 
 const ACCENT = colors[2];
-const DARK_BG = colors[4];
+const DARK_BG = colors[9];
 
 const theme = {
   // colors: {
@@ -33,15 +33,15 @@ const theme = {
 
   colors: {
     darkNavy: DARK_BG,
-    navy: colors[5],
+    navy: colors[9],
     lightNavy: colors[4],
-    lightestNavy: colors[3],
-    slate: colors[7],
+    lightestNavy: colors[7],
+    slate: colors[6],
     lightSlate: colors[2],
     lightestSlate: colors[3],
     white: ACCENT,
-    green: ACCENT,
-    transGreen: hex2rgba(ACCENT, 0.07),
+    green: colors[3],
+    transGreen: hex2rgba(ACCENT, 0.15),
     shadowNavy: hex2rgba(DARK_BG, 0.7),
   },
 
