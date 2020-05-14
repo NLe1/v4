@@ -24,7 +24,7 @@
     "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
     "test:e2e:ci": "start-server-and-test develop http://localhost:8000 cy:run",
     "clean": "gatsby clean",
-    "deploy": "gh-pages-clean && gatsby build && gh-pages -d public -r https://$98738ae3651cc9392509a4e761926397ef2cd7ff@github.com/NLe1/v4.git"
+    "deploy": "gh-pages-clean && gatsby build && gh-pages -d public -r https://$d347498c9bde0ad415c7156c7131ed7a5880d7e3@github.com/NLe1/v4.git"
   },
   "husky": {
     "hooks": {
