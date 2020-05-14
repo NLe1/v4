@@ -1,38 +1,34 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Nhan Le | Software Engineering Student',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+    'Nhan Le is  a software engineer student based in San Jose, CA specializing native and cross-platform web/mobile application from scratch.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Nhan Le , Nhan, Le, NLe1, software engineer, front-end engineer, web developer, javascript, sanjose, sjsu, sbcc, vietnam, danang, student',
+  siteUrl: 'https://nhantle.com',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  googleAnalyticsID: 'UA-156047559-1',
+  // googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
+  name: 'Nhan Le',
+  location: 'San Jose, CA',
+  email: 'nhan99dn@gmail.com',
+  github: 'https://github.com/NLe1',
+  twitterHandle: '@nhanbary99dn',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/NLe1',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.linkedin.com/in/nle1',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/leechanjin138/',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/nhanbarry99dn',
     },
   ],
 

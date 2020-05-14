@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Head, Loader, Nav, Social, Email, Footer } from '@components';
+import { Head, Nav, Social, Email, Footer } from '@components';
 import styled from 'styled-components';
 import { GlobalStyle, theme } from '@styles';
 const { colors, fontSizes, fonts } = theme;
@@ -49,23 +49,23 @@ const StyledContent = styled.div`
 
 const Layout = ({ children, location }) => {
   const isHome = location.pathname === '/';
-  const [isLoading, setIsLoading] = useState(isHome);
+  // const [isLoading, setIsLoading] = useState(isHome);
 
-  useEffect(() => {
-    if (isLoading) {
-      return;
-    }
-    if (location.hash) {
-      const id = location.hash.substring(1); // location.hash without the '#'
-      setTimeout(() => {
-        const el = document.getElementById(id);
-        if (el) {
-          el.scrollIntoView();
-          el.focus();
-        }
-      }, 0);
-    }
-  }, [isLoading]);
+  // useEffect(() => {
+  //   if (isLoading) {
+  //     return;
+  //   }
+  //   if (location.hash) {
+  //     const id = location.hash.substring(1); // location.hash without the '#'
+  //     setTimeout(() => {
+  //       const el = document.getElementById(id);
+  //       if (el) {
+  //         el.scrollIntoView();
+  //         el.focus();
+  //       }
+  //     }, 0);
+  //   }
+  // }, [isLoading]);
 
   return (
     <StaticQuery
@@ -88,20 +88,20 @@ const Layout = ({ children, location }) => {
 
           <SkipToContent href="#content">Skip to Content</SkipToContent>
 
-          {isLoading && isHome ? (
+          {/* {isLoading && isHome ? (
             <Loader finishLoading={() => setIsLoading(false)} />
-          ) : (
-            <StyledContent>
-              <Nav isHome={isHome} />
-              <Social isHome={isHome} />
-              <Email isHome={isHome} />
+          ) : ( */}
+          <StyledContent>
+            <Nav isHome={isHome} />
+            <Social isHome={isHome} />
+            <Email isHome={isHome} />
 
-              <div id="content">
-                {children}
-                <Footer />
-              </div>
-            </StyledContent>
-          )}
+            <div id="content">
+              {children}
+              <Footer />
+            </div>
+          </StyledContent>
+          {/* )} */}
         </div>
       )}
     />

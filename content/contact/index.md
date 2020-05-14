@@ -3,4 +3,4 @@ title: 'Get In Touch'
 buttonText: 'Say Hello'
 ---
 
-Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+I'm currently looking for Summer/Fall 2020 SDE or related internship opportunities. For whom interest in chatting about software, music and tech. Feel free to contact!
