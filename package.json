@@ -18,8 +18,13 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
+    "test": "echo test",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
+    "test:e2e:ci": "start-server-and-test develop http://localhost:8000 cy:run",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public"
+    "deploy": "gatsby build && gh-pages -d public -b nhan-branch -r https://$f3ab894fe6e66f92519a18712b5154a7a63f4f59@github.com/NLe1/v4.git"
   },
   "husky": {
     "hooks": {
