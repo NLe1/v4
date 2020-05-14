@@ -1,19 +1,45 @@
 import { hex2rgba } from '@utils';
 
-const ACCENT = '#64ffda';
-const DARK_BG = '#020c1b';
-const BG = '#0a192f';
+import ColorScheme from 'color-scheme';
+
+const scheme = new ColorScheme();
+scheme
+  .from_hue(parseInt(100 * Math.random())) // Start the scheme
+  .scheme('contrast') // Use the 'triade' scheme, that is, colors
+  // selected from 3 points equidistant around
+  // the color wheel.
+  .variation('hard'); // Use the 'soft' color variation
+
+let colors = scheme.colors();
+colors = colors.map(color => `#${  color}`);
+
+const ACCENT = colors[2];
+const DARK_BG = colors[4];
 
 const theme = {
+  // colors: {
+  //   darkNavy: DARK_BG,
+  //   navy: BG,
+  //   lightNavy: '#172a45',
+  //   lightestNavy: '#303C55',
+  //   slate: '#8892b0',
+  //   lightSlate: '#a8b2d1',
+  //   lightestSlate: '#ccd6f6',
+  //   white: '#e6f1ff',
+  //   green: ACCENT,
+  //   transGreen: hex2rgba(ACCENT, 0.07),
+  //   shadowNavy: hex2rgba(DARK_BG, 0.7),
+  // },
+
   colors: {
     darkNavy: DARK_BG,
-    navy: BG,
-    lightNavy: '#172a45',
-    lightestNavy: '#303C55',
-    slate: '#8892b0',
-    lightSlate: '#a8b2d1',
-    lightestSlate: '#ccd6f6',
-    white: '#e6f1ff',
+    navy: colors[5],
+    lightNavy: colors[4],
+    lightestNavy: colors[3],
+    slate: colors[7],
+    lightSlate: colors[2],
+    lightestSlate: colors[3],
+    white: ACCENT,
     green: ACCENT,
     transGreen: hex2rgba(ACCENT, 0.07),
     shadowNavy: hex2rgba(DARK_BG, 0.7),
