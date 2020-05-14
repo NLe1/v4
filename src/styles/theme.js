@@ -4,7 +4,7 @@ import ColorScheme from 'color-scheme';
 
 const scheme = new ColorScheme();
 scheme
-  .from_hue(parseInt(255 * Math.random())) // Start the scheme
+  .from_hue(parseInt(360 * Math.random())) // Start the scheme
   .scheme('triade') // Use the 'triade' scheme, that is, colors
   // selected from 3 points equidistant around
   // the color wheel.
@@ -34,13 +34,13 @@ const theme = {
   colors: {
     darkNavy: DARK_BG,
     navy: colors[9],
-    lightNavy: colors[4],
+    lightNavy: colors[3],
     lightestNavy: colors[7],
     slate: colors[6],
     lightSlate: colors[2],
     lightestSlate: colors[3],
     white: ACCENT,
-    green: colors[3],
+    green: colors[6],
     transGreen: hex2rgba(ACCENT, 0.15),
     shadowNavy: hex2rgba(DARK_BG, 0.7),
   },
