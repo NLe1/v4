@@ -13,4 +13,4 @@ tech:
 showInProjects: true
 ---
 
-Open-source playground, sharing tabs/sheets music for guitarists. Data scraped from Ultimate Guitar Pro [Demo](https://www.youtube.com/watch?v=cjQ1HGiCMug)
+Platform for musicians to share music sheets/tabs using pre-fetched data scraping from Ultimate Guitar website using Python and Selenium. [Demo](https://www.youtube.com/watch?v=cjQ1HGiCMug)

@@ -14,4 +14,4 @@ tech:
 showInProjects: true
 ---
 
-Dashboard generate curated playlists, albums recommendations based on users' top songs, artists and genres.
+Curated songs and playlists generator based users’ top artists, genres, playlists on Spotify.

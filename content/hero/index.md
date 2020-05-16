@@ -1,8 +1,8 @@
 ---
 title: 'Hi, my name is'
 name: 'Nhan Le'
-subtitle: 'I make web thingy and brag about it.'
+subtitle: 'I make website for fun and brag about it.'
 buttonText: 'Get In Touch'
 ---
 
-I'm a software engineer student based in San Jose, CA specializing native and cross-platform web/mobile application from scratch.
+Welcome to my crib. I love tech and aspire to run tech-related company one day. I skilled in Full-stack Development and interest in Backend, Distributed System and DevOps domain.

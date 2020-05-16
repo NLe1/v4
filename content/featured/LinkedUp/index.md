@@ -13,4 +13,4 @@ tech:
 showInProjects: true
 ---
 
-Chrome Extension helps you organize endless social media connections with fast look up based on company, notes, and career; also provide place to store quick cold email template. [Chrome Store](https://chrome.google.com/webstore/detail/kifkfalljkcdikeobdhhbcfahaghpeci/publish-accepted?authuser=0&hl=en)
+Chrome Extension helps you organize endless LinkedIn connections and provide place to store quick cold email template. [Chrome Store](https://chrome.google.com/webstore/detail/kifkfalljkcdikeobdhhbcfahaghpeci/publish-accepted?authuser=0&hl=en)

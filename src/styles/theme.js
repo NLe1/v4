@@ -1,4 +1,4 @@
-import { hex2rgba } from '@utils';
+import { hex2rgba } from '../../src/utils';
 
 import ColorScheme from 'color-scheme';
 
@@ -14,7 +14,7 @@ let colors = scheme.colors();
 colors = colors.map(color => `#${color}`);
 
 const ACCENT = colors[2];
-const DARK_BG = colors[9];
+const DARK_BG = hex2rgba(colors[9], 0.02);
 
 const theme = {
   // colors: {
@@ -36,7 +36,7 @@ const theme = {
     navy: colors[9],
     lightNavy: colors[3],
     lightestNavy: colors[7],
-    slate: colors[6],
+    slate: colors[10],
     lightSlate: colors[2],
     lightestSlate: colors[3],
     white: ACCENT,

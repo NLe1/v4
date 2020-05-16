@@ -12,4 +12,4 @@ tech:
 showInProjects: true
 ---
 
-Feeling such hassle to use Twitter API with WOEID ? 🐦🐦 EzWOEID provide fast, seamless WOEID indexed lookup //TODO: migrate to decoupled API
+Feeling such hassle about using Twitter API with WOEID ? 🐦🐦 EzWOEID provide fast, seamless WOEID indexed lookup dashboard.
