@@ -8,29 +8,15 @@ scheme
   .scheme('triade') // Use the 'triade' scheme, that is, colors
   // selected from 3 points equidistant around
   // the color wheel.
-  .variation('soft'); // Use the 'soft' color variation
+  .variation('pastel'); // Use the 'soft' color variation
 
 let colors = scheme.colors();
 colors = colors.map(color => `#${color}`);
 
-const ACCENT = colors[2];
-const DARK_BG = hex2rgba(colors[9], 0.02);
+const ACCENT = colors[11];
+const DARK_BG = colors[9];
 
 const theme = {
-  // colors: {
-  //   darkNavy: DARK_BG,
-  //   navy: BG,
-  //   lightNavy: '#172a45',
-  //   lightestNavy: '#303C55',
-  //   slate: '#8892b0',
-  //   lightSlate: '#a8b2d1',
-  //   lightestSlate: '#ccd6f6',
-  //   white: '#e6f1ff',
-  //   green: ACCENT,
-  //   transGreen: hex2rgba(ACCENT, 0.07),
-  //   shadowNavy: hex2rgba(DARK_BG, 0.7),
-  // },
-
   colors: {
     darkNavy: DARK_BG,
     navy: colors[9],
