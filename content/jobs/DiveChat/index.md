@@ -7,5 +7,5 @@ range: 'April 2020 - Present'
 url: 'https://dive.chat/'
 ---
 
-- Owning push notifications for 40,000 users in less than a year using Google Cloud Function and Expo server.- Own push notifications for projected 40,000 users in less than a year using Google Cloud Functions.
-- Updating ...
+- Owned push notifications feature for 40,000 users using Google Cloud Function and Expo server.
+- Reduced bandwidth cost by 33% by reconstructing object-relational schema.
