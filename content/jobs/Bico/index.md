@@ -1,6 +1,6 @@
 ---
 date: '2019-11-01'
-title: 'Frontend Developer (Contract)'
+title: 'Frontend Developer'
 company: 'BICO Inc.'
 location: 'San Jose, CA'
 range: 'Nov 2019 - Jan 2020'

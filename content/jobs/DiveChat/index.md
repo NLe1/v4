@@ -1,6 +1,6 @@
 ---
 date: '2020-04-15'
-title: 'Software Engineer Intern'
+title: 'Software Developer Intern'
 company: 'Dive Chat'
 location: 'San Jose, CA'
 range: 'April 2020 - June 2020'
