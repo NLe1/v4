@@ -1,9 +1,8 @@
 {
   "name": "v4",
-  "description": "Personal Website v2",
+  "description": "Personal Website V2",
   "version": "1.0.0",
   "author": "Brittany Chiang <brittany.chiang@gmail.com>",
-  "coauthor": "Nhan Le <nhan99dn@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/NLe1/v4"
@@ -18,18 +17,9 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo test",
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
-    "test:e2e:ci": "start-server-and-test develop http://localhost:8000 cy:run",
     "clean": "gatsby clean",
-    "deploy": "gh-pages-clean && gatsby build --prefix-paths && gh-pages -d public"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
@@ -42,8 +32,6 @@
   "dependencies": {
     "animejs": "^3.1.0",
     "babel-plugin-styled-components": "^1.10.6",
-    "color-scheme": "^1.0.1",
-    "dotenv": "^8.2.0",
     "gatsby": "^2.18.7",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-google-analytics": "^2.1.29",
@@ -61,13 +49,12 @@
     "gatsby-source-filesystem": "^2.1.40",
     "gatsby-transformer-remark": "^2.6.39",
     "gatsby-transformer-sharp": "^2.3.7",
-    "giphy-js-sdk-core": "^1.0.6",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-helmet": "^5.2.1",
+    "react-helmet": "^6.1.0",
     "react-transition-group": "^4.3.0",
     "scrollreveal": "^4.0.5",
     "smooth-scroll": "^16.1.0",
@@ -82,8 +69,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "gatsby-remark-code-titles": "^1.1.0",
-    "gh-pages": "^2.2.0",
-    "husky": "^4.2.3",
+    "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
     "prettier": "^2.0.4"
   }
